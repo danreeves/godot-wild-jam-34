@@ -3,7 +3,6 @@ extends Area2D
 var can_interact = false
 #const DIALOG = preload("res://Home/dialog.tscn")
 #var dialog
-var notification = true
 
 func _physics_process(_delta):
 	$Sprite.play()
@@ -11,7 +10,7 @@ func _physics_process(_delta):
 
 func _on_computer_body_entered(body):
 
-	if body.name == "Moonman2D" and notification:
+	if body.name == "Moonman2D" :
 		$chair.visible = true
 		$Label.visible = true
 		can_interact = true
@@ -29,8 +28,7 @@ func _on_computer_body_exited(body):
 			#dialog = null
 
 func _input(_event):
-	if Input.is_key_pressed(KEY_SPACE) and can_interact == true and notification: 
-		notification = false
+	if Input.is_key_pressed(KEY_SPACE) and can_interact == true:
 		$Sprite.play("off")
 		$Label.visible = false
 		#dialog = DIALOG.instance()
