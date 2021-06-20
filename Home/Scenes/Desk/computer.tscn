@@ -10,8 +10,8 @@
 [ext_resource path="res://Home/Art/Illustrator/computer/comp.notification.png" type="Texture" id=8]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 138.722
-height = 155.482
+radius = 105.305
+height = 94.3406
 
 [sub_resource type="CapsuleShape2D" id=2]
 radius = 66.4408
@@ -54,7 +54,7 @@ script = ExtResource( 7 )
 [node name="computer" type="StaticBody2D" parent="."]
 
 [node name="computer" type="CollisionShape2D" parent="computer"]
-position = Vector2( -3.55108, -79.6809 )
+position = Vector2( 8.46253, -56.9886 )
 rotation = 1.5708
 shape = SubResource( 1 )
 
@@ -74,11 +74,11 @@ shape = SubResource( 2 )
 [node name="Sprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 3 )
 animation = "on"
-frame = 1
+frame = 2
 playing = true
 
 [node name="compnotification" type="Sprite" parent="."]
-position = Vector2( -12.8007, -206.081 )
+position = Vector2( -12.8007, -227.328 )
 texture = ExtResource( 8 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="compnotification"]
@@ -87,11 +87,12 @@ anims/notification = SubResource( 4 )
 
 [node name="Label" type="Label" parent="."]
 visible = false
-margin_left = 11.7211
-margin_top = -178.835
-margin_right = 109.721
-margin_bottom = -164.835
-text = "interact (space)"
+margin_left = 32.7252
+margin_top = -177.219
+margin_right = 153.725
+margin_bottom = -163.219
+rect_scale = Vector2( 1.4877, 2.12837 )
+text = "WRITE IN JOURNAL"
 __meta__ = {
 "_edit_use_anchors_": false
 }

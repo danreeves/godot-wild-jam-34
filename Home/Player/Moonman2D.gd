@@ -14,12 +14,12 @@ func _physics_process(_delta):
 		velocity.x = SPEED
 		$Sprite.play("side")
 		$Sprite.flip_h = true
-		$Sprite/Particles2D.position.x = -25
+		$Sprite/Particles2D.position.x = -55
 	elif Input.is_action_pressed("left"):
 		velocity.x = -SPEED
 		$Sprite.play("side")
 		$Sprite.flip_h = false
-		$Sprite/Particles2D.position.x = 25
+		$Sprite/Particles2D.position.x = 55
 	elif Input.is_action_pressed("forward"):
 		velocity.y = -SPEED
 		$Sprite.play("back")
@@ -36,28 +36,28 @@ func _physics_process(_delta):
 		$Sprite.play("side.back")
 		$Sprite.flip_h = true
 		$Sprite/Particles2D.z_index = 1
-		$Sprite/Particles2D.position.x = -10
+		$Sprite/Particles2D.position.x = -30
 	if Input.is_action_pressed("right") and Input.is_action_pressed("backward"):
 		velocity.x = SPEED
 		velocity.y = SPEED
 		$Sprite.play("side.front")
 		$Sprite.flip_h = true
 		$Sprite/Particles2D.z_index = -1
-		$Sprite/Particles2D.position.x = -10
+		$Sprite/Particles2D.position.x = -30
 	if Input.is_action_pressed("left") and Input.is_action_pressed("forward"):
 		velocity.x = -SPEED
 		velocity.y = -SPEED
 		$Sprite.play("side.back")
 		$Sprite.flip_h = false
 		$Sprite/Particles2D.z_index = 1
-		$Sprite/Particles2D.position.x = 10
+		$Sprite/Particles2D.position.x = 30
 	if Input.is_action_pressed("left") and Input.is_action_pressed("backward"):
 		velocity.x = -SPEED
 		velocity.y = SPEED
 		$Sprite.play("side.front")
 		$Sprite.flip_h = false
 		$Sprite/Particles2D.z_index = -1
-		$Sprite/Particles2D.position.x = 10
+		$Sprite/Particles2D.position.x = 30
 		
 		
 	velocity = move_and_slide(velocity, Vector2.UP)

@@ -48,13 +48,10 @@ config/name="godot-wild-jam-34"
 run/main_scene="res://Space.tscn"
 config/icon="res://icon.png"
 
-[autoload]
+[display]
 
-DialogicSingleton="*res://addons/dialogic/Other/DialogicSingleton.gd"
-
-[editor_plugins]
-
-enabled=PoolStringArray( "res://addons/dialogic/plugin.cfg" )
+window/size/width=1920
+window/size/height=1080
 
 [input]
 
@@ -96,9 +93,4 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
-quality/shadow_atlas/quadrant_0_subdiv=6
-quality/shadow_atlas/quadrant_1_subdiv=6
-quality/shadow_atlas/quadrant_2_subdiv=6
-quality/shadow_atlas/quadrant_3_subdiv=6
-quality/shadows/filter_mode=2
 environment/default_environment="res://default_env.tres"

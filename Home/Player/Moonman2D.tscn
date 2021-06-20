@@ -1,10 +1,11 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Home/Art/Illustrator/player/effect_toots.png" type="Texture" id=1]
-[ext_resource path="res://Home/Art/Illustrator/player/frontMoonMan2D.png" type="Texture" id=2]
-[ext_resource path="res://Home/Art/Illustrator/player/back.sideMoonMan2D.png" type="Texture" id=3]
-[ext_resource path="res://Home/Art/Illustrator/player/backMoonMan2D.png" type="Texture" id=4]
-[ext_resource path="res://Home/Art/Illustrator/player/sideMoonMan2D.png" type="Texture" id=5]
+[ext_resource path="res://Home/Art/Illustrator/player/backMoonman2D.png" type="Texture" id=2]
+[ext_resource path="res://Home/Art/Illustrator/player/sideMoonman2D.png" type="Texture" id=3]
+[ext_resource path="res://Home/Art/Illustrator/player/frontMoonman2D.png" type="Texture" id=4]
+[ext_resource path="res://Home/Art/Illustrator/player/back.sideMoonman2D.png" type="Texture" id=5]
+[ext_resource path="res://Home/Art/Illustrator/player/front.sideMoonman2D.png" type="Texture" id=6]
 [ext_resource path="res://Home/Player/Moonman2D.gd" type="Script" id=7]
 
 [sub_resource type="CapsuleShape2D" id=1]
@@ -13,27 +14,27 @@ height = 28.8747
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 2 ) ],
+"frames": [ ExtResource( 4 ) ],
 "loop": true,
 "name": "default",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 4 ) ],
+"frames": [ ExtResource( 2 ) ],
 "loop": true,
 "name": "back",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 5 ) ],
+"frames": [ ExtResource( 3 ) ],
 "loop": true,
 "name": "side",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 2 ) ],
+"frames": [ ExtResource( 6 ) ],
 "loop": true,
 "name": "side.front",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 3 ) ],
+"frames": [ ExtResource( 5 ) ],
 "loop": true,
 "name": "side.back",
 "speed": 5.0
@@ -43,13 +44,13 @@ animations = [ {
 offsets = PoolRealArray( 0, 0.596899 )
 colors = PoolColorArray( 1, 1, 1, 0.509804, 1, 1, 1, 0 )
 
-[sub_resource type="GradientTexture" id=4]
+[sub_resource type="GradientTexture" id=9]
 gradient = SubResource( 3 )
 
 [sub_resource type="Curve" id=5]
 _data = [ Vector2( 0, 0.652273 ), 0.0, 0.0, 0, 0, Vector2( 1, 0.288636 ), 0.0, 0.0, 0, 0 ]
 
-[sub_resource type="CurveTexture" id=6]
+[sub_resource type="CurveTexture" id=10]
 curve = SubResource( 5 )
 
 [sub_resource type="ParticlesMaterial" id=7]
@@ -62,8 +63,8 @@ orbit_velocity = 0.0
 orbit_velocity_random = 0.0
 angle = 360.0
 angle_random = 1.0
-scale_curve = SubResource( 6 )
-color_ramp = SubResource( 4 )
+scale_curve = SubResource( 10 )
+color_ramp = SubResource( 9 )
 
 [sub_resource type="Animation" id=8]
 loop = true
@@ -90,10 +91,12 @@ scale = Vector2( 1.01908, -1.00039 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="AnimatedSprite" parent="."]
+position = Vector2( -6, 0 )
 frames = SubResource( 2 )
+animation = "back"
 
 [node name="Particles2D" type="Particles2D" parent="Sprite"]
-position = Vector2( 0, 45 )
+position = Vector2( 5.94608, 134.19 )
 z_index = -1
 amount = 20
 local_coords = false
