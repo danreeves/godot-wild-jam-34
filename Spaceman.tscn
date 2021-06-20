@@ -1,0 +1,97 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Spaceman.gd" type="Script" id=1]
+
+[sub_resource type="CapsuleMesh" id=1]
+mid_height = 1.9
+
+[sub_resource type="CubeMesh" id=2]
+size = Vector3( 1, 1, 1 )
+
+[sub_resource type="ParticlesMaterial" id=3]
+direction = Vector3( 0, -1, 0.5 )
+spread = 15.69
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 2.0
+
+[sub_resource type="SpatialMaterial" id=4]
+albedo_color = Color( 0.572549, 0.564706, 0.564706, 1 )
+
+[sub_resource type="SphereMesh" id=5]
+material = SubResource( 4 )
+radius = 0.5
+height = 1.0
+
+[sub_resource type="ParticlesMaterial" id=6]
+direction = Vector3( 0, -1, 0.5 )
+spread = 15.69
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 2.0
+
+[sub_resource type="SphereShape" id=7]
+radius = 2.0
+
+[node name="Spaceman" type="KinematicBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 35.4891, 264.908, 0 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Character" type="Spatial" parent="."]
+
+[node name="MeshInstance" type="MeshInstance" parent="Character"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0 )
+mesh = SubResource( 1 )
+material/0 = null
+
+[node name="Jetpack" type="MeshInstance" parent="Character"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.652618, 0.952559 )
+mesh = SubResource( 2 )
+material/0 = null
+
+[node name="Particles" type="Particles" parent="Character/Jetpack"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.328789, -0.72467, 0.0791628 )
+emitting = false
+amount = 7000
+lifetime = 600.0
+speed_scale = 1.69
+local_coords = false
+process_material = SubResource( 3 )
+draw_pass_1 = SubResource( 5 )
+
+[node name="Particles2" type="Particles" parent="Character/Jetpack"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.238972, -0.72467, 0.0791628 )
+emitting = false
+amount = 7
+speed_scale = 1.69
+local_coords = false
+process_material = SubResource( 6 )
+draw_pass_1 = SubResource( 5 )
+
+[node name="Top" type="Position3D" parent="Character"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0 )
+
+[node name="Back" type="Position3D" parent="Character"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1 )
+
+[node name="Front" type="Position3D" parent="Character"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1 )
+
+[node name="Left" type="Position3D" parent="Character"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0 )
+
+[node name="Right" type="Position3D" parent="Character"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0 )
+
+[node name="Bottom" type="Position3D" parent="Character"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0 )
+shape = SubResource( 7 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.965249, 0.26133, 0, -0.26133, 0.965249, 0, 4.55685, 8.85649 )
+near = 0.01
+far = 8192.0
