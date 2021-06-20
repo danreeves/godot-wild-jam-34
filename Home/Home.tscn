@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Home/Player/Moonman2D.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Home/Scenes/Desk/computer.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Home/Scenes/Background/background.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Home/Scenes/Desk/chop.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Home/Scenes/Background/chair.tscn" type="PackedScene" id=5]
 
 [node name="Home" type="Node2D"]
 
@@ -11,5 +13,12 @@
 [node name="computer" parent="." instance=ExtResource( 2 )]
 position = Vector2( 691.258, 526.786 )
 
+[node name="chop" parent="." instance=ExtResource( 4 )]
+position = Vector2( 990.538, 506.446 )
+
+[node name="chair" parent="." instance=ExtResource( 5 )]
+position = Vector2( 272.478, 828.828 )
+
 [node name="Moonman2D" parent="." instance=ExtResource( 1 )]
 position = Vector2( 962, 834 )
+scale = Vector2( 0.8, 0.8 )

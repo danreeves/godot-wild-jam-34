@@ -12,7 +12,7 @@ func _physics_process(_delta):
 func _on_computer_body_entered(body):
 
 	if body.name == "Moonman2D" and notification:
-		$computer.visible = true
+		$chop.visible = true
 		$Label.visible = true
 		can_interact = true
 		
@@ -30,7 +30,7 @@ func _on_computer_body_exited(body):
 func _input(_event):
 	if Input.is_key_pressed(KEY_SPACE) and can_interact == true and notification: 
 		notification = false
-		$compnotification.visible  = false
+		$chop.visible  = false
 		$Label.visible = false
 		#dialog = DIALOG.instance()
 		#get_parent().add_child(dialog)

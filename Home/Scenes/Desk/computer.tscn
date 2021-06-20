@@ -78,7 +78,7 @@ frame = 2
 playing = true
 
 [node name="compnotification" type="Sprite" parent="."]
-position = Vector2( -12.8007, -206.081 )
+position = Vector2( -12.8007, -227.328 )
 texture = ExtResource( 8 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="compnotification"]
