@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/í ½í´¥ Epic Battle Music (No Copyright) 'Dragon Castle' by Makai Symphony í ¼í·¯í ¼í·µ.mp3-926d25447e3f90b9f9f858d1d8af0b8a.mp3str"
+
+[deps]
+
+source_file="res://music/í ½í´¥ Epic Battle Music (No Copyright) 'Dragon Castle' by Makai Symphony í ¼í·¯í ¼í·µ.mp3"
+dest_files=[ "res://.import/í ½í´¥ Epic Battle Music (No Copyright) 'Dragon Castle' by Makai Symphony í ¼í·¯í ¼í·µ.mp3-926d25447e3f90b9f9f858d1d8af0b8a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

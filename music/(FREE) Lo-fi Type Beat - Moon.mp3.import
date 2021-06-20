@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/(FREE) Lo-fi Type Beat - Moon.mp3-cf927170086541952c359d49abbfe14a.mp3str"
+
+[deps]
+
+source_file="res://music/(FREE) Lo-fi Type Beat - Moon.mp3"
+dest_files=[ "res://.import/(FREE) Lo-fi Type Beat - Moon.mp3-cf927170086541952c359d49abbfe14a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
