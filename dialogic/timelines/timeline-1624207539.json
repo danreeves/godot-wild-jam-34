@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1624207547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Day Rock\nToday is Rock Day I have decided.\nIt’s not because I’m going to collect any, but simply because I feel a certain solidity to my life.\nThe routine is easy; there are no external pressures.\nAll I have to do is collect the moon carrots and feed the moon bunny.\nMy jet pack has been especially helpful in my daily gathering.\nI do wonder what it uses for fuel.\nIt never seems to run out, no matter how much I use it and I’ve never manually refilled it.\nI suspect it accepts but one type of fuel: it is powered by my own natural gasses.\nI do to toot quite often.\nToo many carrots will do that.\nCould it be my suit was designed to utilize this source of fuel?\nI wonder who designed it.\nDid they know about the moon carrots beforehand to design a suit completely powered by flatulence?\nAnd if so, does that mean they know I’m still up here?\nWill someone come and get me?\nI await the day when I can get off this rock."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1624207539.json",
+		"name": "day 8"
+	}
+}

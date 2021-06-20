@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1624207547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Day Magenta\nI’ve lost count of how long I’ve been here, so the numbers don’t seem to matter anymore.\nToday feels like a magenta.\nI wonder what came first – the moon bunny or the moon carrots?\nDid they grow alone on this dusty rock?\nDid the moon bunny ever have any natural predators?\nI’ve only seen the one in the base.\nHow did it get in there?\nWhat did it do before I came along?\nDoes it really need me to collect carrots for it?\nAm I but a vessel, a minion of the moon bunny?\nWho is really in charge of this moon?\nIf it came to a fight, could I take the moon bunny?\nI have no answers to these questions.\nAll I know is that the moon bunny and I need something to eat for dinner, and it doesn’t seem keen on helping."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1624207538.json",
+		"name": "day 7"
+	}
+}

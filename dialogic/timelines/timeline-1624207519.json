@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1624207547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Day 354\nHello, little journal.\nI have decided to keep you informed of my daily activities and thoughts as a way to mark the passage of time.\nI just hope I can remember to write in you consistently.\nIn any case, today I’m going to collect more moon carrots, as I do every day.\nNow that I think about it (though I’m sure I’ve thought of it before), I don’t actually know where they go after I pluck them from the ground.\nThis suit is frustratingly without pockets.\nWho designed this thing?\nThey didn’t think I’d need pockets?\nThey’re so handy!\nAnd fashionable.\nBut then again, what would I need pockets for anyway?\nAside from the disappearing carrots, what is there?\nMoon rocks?\nWhat do I need those for?\nThe moon bunny has no need of rocks and neither do I."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1624207519.json",
+		"name": "day 1"
+	}
+}

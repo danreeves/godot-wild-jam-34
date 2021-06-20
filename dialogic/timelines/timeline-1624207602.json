@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1624207547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Day 813\nThis will be my final entry.\nThe moon carrots are gone.\nThe moon bunny has eaten them all and I’ve depleted my stockpile.\nThere has been no word from Earth, from home.\nEither no one knows or no one cares that I’m still up here.\nI’m not sure what happens next, but I have a good idea.\nThe carrots are gone.\nI feel the beast’s eyes on me.\nIt knows I’m in here.\nIt knows."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1624207602.json",
+		"name": "day 13"
+	}
+}

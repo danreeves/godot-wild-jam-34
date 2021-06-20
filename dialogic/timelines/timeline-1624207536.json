@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1624207547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Day 436\nI’ve messed up the journal count again, but this feels right.\nMaybe.\nMoon days are so much longer than earth days, so all I’m really going by is how many times I’ve been awake, that and the girth of the moon bunny.\nI’ve had to let the creature out of its cage due to the rate at which it has grown.\nIt seems placid enough, but almost too placid.\nI’ll be keeping an eye on it.\nIn any case, you’d think an astronaut would be able to tell how long he’s been on the moon, but I’ve always been terrible at math, and it doesn’t help that the clock seems to be broken.\nHonestly, it’s a wonder I made it through school at all.\nMom set me up with that tutor and it made all the difference.\nHuh.\nI wonder what my parents are doing down there while I’m up here.\nDo they miss me?\nIs Dad’s back still giving him trouble?\nDo they still argue about how long to steep the earl grey?\nWhy do I remember stupid things like that but I can’t remember my mother’s face?"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1624207536.json",
+		"name": "day 5"
+	}
+}

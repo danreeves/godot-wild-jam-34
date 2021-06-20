@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1624207547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Day 499\nI gaze longingly at the blue gem on the horizon every morning, wondering if I’ll ever return home, but it feels like a forlorn hope at this point.\nIt’s just me, the moon carrots, and the moon bunny.\nSurely, I arrived on some kind of spaceship, but I’ve found no evidence of one, unless the base was once a ship.\nCould it be the moon bunny is not actually an alien species but a normal earth bunny?\nAnd what of the moon carrots?\nEarth carrots?\nBut how do they survive on the moon’s surface in such a thin atmosphere?\nNo, they must be some alien species unknown to man, well, except for me of course."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1624207537.json",
+		"name": "day 6"
+	}
+}

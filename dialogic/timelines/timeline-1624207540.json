@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1624207547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Day of Struggle\nI’ve had to move the moon bunny outside.\nIts girth was nearly too much to fit through the airlock, but I managed to squeeze the not-so-little beastie out.\nAnother day and it would have been a lost cause.\nIt didn’t move around much while in its cage, but it had no trouble when I got it out onto the lunar surface, despite its apparent lack of arms or legs.\nI’m not sure what kind of quality of life it had, sitting there impassively for days on end, but it seemed to take to the outside well enough.\nBeing a moon bunny, I assumed it would be fine, and indeed, it seems to forage and eat even when I don’t feed it.\nAnd to think, a few short days ago I could have held it in my hands.\nOr at least that’s what the journal tells me.\nIt feels like a lifetime since my first entry, though it seems I’ve only written eight others.\nWhat does it really matter how long it’s been? Nobody is coming.\nIt’s just me and the moon bunny trapped here for eternity on our rock of dust and veg.\nBut how long can the moon carrots realistically sustain us?\nThey seem to pop up overnight, but the moon bunny consumes more and more.\nSurely, it wouldn’t turn to an alternative source of food if they ran out, right?"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1624207540.json",
+		"name": "day 9"
+	}
+}

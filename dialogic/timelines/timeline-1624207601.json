@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1624207547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Day of Hunger\nFood grows scarce.\nI’ve stockpiled just enough moon carrots to hold me over for a few more days.\nThe moon bunny has grown ravenous.\nI scamper out as soon as I awaken to collect what few remain untouched by its nocturnal grazing.\nI have still yet to see it.\nIt must be underground sucking the moon carrots down its great gullet from beneath.\nI’m surprised I haven’t drawn its attention yet.\nSurely it must be able to hear the pounding of my heart even through the thin atmosphere.\nEven this torturous soundtrack pumping through my headphones can’t drown it out.\nWhat is this and why can’t I turn it off?\nThe same tune over and over.\nYou guys can hear this, right?\nWho picked this track?\nThey should be ashamed of themselves.\nI wish I knew how to at least switch channels.\nI could go for some Beatles or Bon Jovi, or nails on a chalkboard.\nLiterally anything that isn’t this.\nPoor taste in music aside, I should go out and try to grab a few more moon carrots before the moon bunny inhales them."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1624207601.json",
+		"name": "day 12"
+	}
+}

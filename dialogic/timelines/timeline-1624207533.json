@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1624207547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Day 380\nThe moon is as desolate as it’s ever been; a pallid wasteland pockmarked by the occasional crater and the moon carrots that dot the dusty terrain.\nI’m not sure what the difference is between moon carrots and earth carrots.\nThey’re just as orange as earth carrots and they taste like them too, but they grow on the moon.\nThey must have some kind of special properties that set them apart from the carrots back at home though.\nThey’re all I eat, all there is to eat, and I suffer no vitamin deficiencies.\nThe moon bunny seems fine on them too, more than fine.\nIn fact, were it not for the moon bunny’s voracious appetite that tipped me off to their edibleness, I might have starved out here.\nMy provisions have long since run out, though I can’t say I remember eating them."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1624207533.json",
+		"name": "day 2"
+	}
+}

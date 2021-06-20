@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1624207547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Day 420\nI feel like there should be some kind of significance to this day, but it’s been so long that I’ve forgotten what it could be.\nMy friends back at home would know.\nI wonder what they’re up to now.\nHave they started families while I’m up here on this old rock?\nDo they still get together every Saturday night for mini golf?\nMini golf is fun, but who actually goes every weekend?\nWe only play the same course.\nIt’s too much mini golf!\nThough, I suppose it’s less about the mini golf and more about who you’re mini golfing with.\nI miss them.\nThe moon bunny is of small comfort, but it’s better than nothing.\nI wonder if moon rocks would make good golf balls.\nIf only I had pockets."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1624207534.json",
+		"name": "day 3"
+	}
+}

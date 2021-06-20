@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1624207547.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Day of Reflection\nA thought came to me last night as I sat in the limbo between reality and possibility.\nI had heard of the moon bunny before, back in my college days, though it was nothing like what I’ve discovered.\nIt was in an eastern mythology class, an elective of which I had no particular interest in at the time.\nI just needed the credits; didn’t even attend most of the classes.\nI showed up for test days, but beyond that I read the textbook and turned in the homework online.\nStill managed to get an -A, which I think says more about the education system than it does my academic prowess.\nBut I digress.\nIn the version of the story I remember, the moon bunny was a companion to the moon goddess.\nIt ground up ingredients to create the elixir of life for her and presumably the other immortals.\nIt was a helpful creature, quite unlike what I’ve found, though I can’t say the moon carrots don’t fit the bill as some kind of elixir of life.\nI eat them and am renewed.\nIt is quite possible that they have an effect on my perception of time as well, which would make some strange kind of sense, for what is time to an immortal?\nPerhaps there was some truth to that tale after all."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1624207542.json",
+		"name": "day 11"
+	}
+}
