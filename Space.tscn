@@ -86,6 +86,7 @@ mesh = SubResource( 7 )
 material/0 = null
 
 [node name="Spaceman" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 256.886, 0 )
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource( 8 )
@@ -93,5 +94,8 @@ environment = SubResource( 8 )
 [node name="Sun" type="DirectionalLight" parent="."]
 transform = Transform( -0.0676723, 0.475364, -0.877183, 0.0265213, 0.879745, 0.474706, 0.997355, 0.00886045, -0.0721416, 0, 0, 0 )
 light_color = Color( 0.945098, 0.92549, 0.796078, 1 )
+light_energy = 2.03
+light_bake_mode = 2
 shadow_enabled = true
+directional_shadow_depth_range = 1
 directional_shadow_max_distance = 8192.0

@@ -64,8 +64,15 @@ func _process(delta: float) -> void:
 		boosting = true
 		rotate_object_local(Vector3.UP, -1.0 * delta)
 
-	$Character/Jetpack/Particles.emitting = boosting
-	$Character/Jetpack/Particles2.emitting = boosting
+	
+	$Character/Particles.emitting = boosting
+	$Character/Particles2.emitting = boosting
+	
+	if boosting:
+		$moonman/AnimationPlayer.play("zoom")
+	else:
+		$moonman/AnimationPlayer.play("default")
+		
 
 	if velocity.length() > MAX_VELOCITY:
 		velocity = velocity.normalized() * MAX_VELOCITY
