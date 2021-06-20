@@ -51,7 +51,7 @@ position = Vector2( 301.776, 710.387 )
 position = Vector2( 254.504, 418.294 )
 
 [node name="bunny13" parent="bunny" instance=ExtResource( 6 )]
-position = Vector2( 251.984, 415.774 )
+position = Vector2( 262.064, 415.774 )
 
 [node name="board" type="Sprite" parent="."]
 position = Vector2( 929.634, 307.767 )
