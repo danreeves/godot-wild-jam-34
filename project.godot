@@ -48,6 +48,11 @@ config/name="godot-wild-jam-34"
 run/main_scene="res://Space.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=1920
+window/size/height=1080
+
 [input]
 
 space={

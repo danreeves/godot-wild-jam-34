@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/back.sideMoonMan2D.png-591c7ae414dd7a2b48fc39182b64207c.stex"
+path="res://.import/back.sideMoonman2D.png-deeff6564ac8f879512d38a12d0f06c1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Home/Art/Illustrator/player/back.sideMoonMan2D.png"
-dest_files=[ "res://.import/back.sideMoonMan2D.png-591c7ae414dd7a2b48fc39182b64207c.stex" ]
+source_file="res://Home/Art/Illustrator/player/back.sideMoonman2D.png"
+dest_files=[ "res://.import/back.sideMoonman2D.png-deeff6564ac8f879512d38a12d0f06c1.stex" ]
 
 [params]
 
