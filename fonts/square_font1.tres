@@ -3,5 +3,5 @@
 [ext_resource path="res://fonts/Square.ttf" type="DynamicFontData" id=1]
 
 [resource]
-size = 75
+size = 35
 font_data = ExtResource( 1 )
